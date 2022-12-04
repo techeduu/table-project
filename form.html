@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+.main{
+    background-color: hsl(228, 33%, 97%);
+    width:40%;
+    margin-left:24%;
+    height:100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    color:black;
+    font-size:25px;
+    font-weight: bold;
+    text-align: center;
+    padding-top:10px;
+    border-radius: 5px;
+}
+.try{
+    background-color:white;
+    height:90vh;
+    margin:20px;
+    border-radius: 7px;
+}
+form{
+    width:92%;
+    background-color:;
+    margin-left:22px;
+    padding-top:15px;
+    
+}
+form, fieldset{
+    background-color:white;
+    border-width: thin;
+}
+.btn{
+    width:201px;
+    padding:19px;
+    outline:none;
+    border:none;
+   background-color:hsl(228, 33%, 97%);
+   font-size:20px;
+    
+}
+input[type="text"]{
+    width:403px;
+    margin-top:20px;
+    height:40px;
+    font-size: 17px;
+    border:1px solid lightblue;
+    border-radius: 5px;
+}
+
+input[type="password"]{
+    width:403px;
+    height:40px; 
+    font-size: 17px; 
+    border:1px solid lightblue; 
+    border-radius: 5px;
+    margin-top:10px;
+}
+{
+    text-align:right;
+    text-decoration: none;
+    font-weight:lighter;
+    font-size:small;
+    color:gray;
+}
+
+{
+    color:green;
+    text-decoration:underline;
+    font-weight:lighter;
+}
+input[type="submit"]{
+    width:400px;
+    padding:10px;
+    color:white;
+    background-color:green;
+    border:none;
+    font-size:20px;
+}
+input[type="gb"]{
+    border-top:none;
+    border-right:none;
+    border-right:none;
+    border-left:none;
+    outline:none
+}
+.social, .fb-btn{
+    margin-right:10px;
+}
+.social, .tw-btn{
+    margin-left:10px;
+}
+.fb-btn{
+    background-color:#3B5998;
+    padding:5px;
+    color:white;
+    
+}
+.fb-btn:hover{
+    color:white;
+    text-decoration: none;
+}
+.tw-btn{
+    background-color:#55ACCE;
+    padding:5px;
+    color:white;
+}
+.tw-btn:hover{
+    color:white;
+    text-decoration: none;
+}
+.git-btn{
+    background-color:black;
+    color:white;
+    padding:5px;
+}
+.link-btn{
+    background-color: #2867B2;
+    color:white;
+    padding:10px;
+}
+.social, .git-btn{
+    margin-right:10px;
+}
+.social, .link-btn{
+    margin-left:10px;
+}
+p, .acc{
+    text-align: center;
+    padding-top:10px;
+    color:green;
+    font-weight: 300;
+}
+p, .acc:hover{
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <div class="main">
+<h2 class="logo">Please Login To Continue</h2>
+<div class="try">
+<form>
+<fieldset width="">
+<button type="btn" class="btn">Sign In</button>
+<button type="btn" class="btn">Sign Up</button>
+<input type="text" id="username" name="username" placeholder="Username or email" required><br><br>
+<input type="password" id="pwd" name="pwd" placeholder="Password" required><br><br>
+<input type="checkbox" checked="checked" >
+<label for="rem"><small style="cursor:pointer; ">Remember me</small></label><br>
+<p><a href="#" class="fgot">Forgot Password</a></p>
+<input type="submit" value="Sign In"><br><br><br>
+
+<div class="social">
+  <a href="#" class="fb-btn">
+    <i class="fa fa-facebook fa-fw"></i>Login with Facebook</a>
+    <a href="#" class="tw-btn">
+        <i class="fa fa-twitter fa-fw"></i>Login with Twitter</a><br><br><br>
+        <a href="#" class="git-btn">
+            <i class="fa fa-github fa-fw"></i>Login with Github</a>
+            <a href="#" class="link-btn">
+                <i class="fa fa-linkedin fa-fw"></i>Login with LinkedIn</a><br>
+        </div>
+        <p><a href="#" class="acc">Why Create an Account?</a></p>
+        </fieldset>
+    </fieldset>
+</fieldset>
+</form>
+</div>
+    </div>
+</body>
+</html>
